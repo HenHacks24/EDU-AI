@@ -4,7 +4,9 @@ import "./App.css";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <header className="App-header">HenHacks24 Project</header>
+            <header className="App-header">
+                HenHacks24 Project. Hello World!
+            </header>
         </div>
     );
 }
