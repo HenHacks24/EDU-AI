@@ -8,7 +8,10 @@ import NavbarFunction from "./Navbar";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h5>Hi Users!</h5>
+            <header className="App-header">
+                HenHacks24 Project. Hello World!!
+            </header>
+            <h5>Hi Users! Please fix</h5>
         </div>
     );
 }
