@@ -1,4 +1,6 @@
 import React /*, { useState, useEffect } */ from "react";
+//"homepage": "homepage",
+//"deploy": "gh-pages -d build",
 import "./App.css";
 
 function App(): JSX.Element {
