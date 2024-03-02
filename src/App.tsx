@@ -9,7 +9,7 @@ function App(): JSX.Element {
             <header className="App-header">
                 HenHacks24 Project. Hello World!!
             </header>
-            <h5>Hi Users</h5>
+            <h5>Hi Users!</h5>
         </div>
     );
 }
