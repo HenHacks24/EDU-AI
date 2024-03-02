@@ -1,6 +1,6 @@
 {
     "name": "react-typescript-starter",
-    "homepage": "homepage",
+    "homepage": "https://henhacks24.github.io/Project1/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -26,7 +26,7 @@
         "test:cov": "react-scripts test --coverage --watchAll",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "npm run build&&gh-pages -d build",
         "lint": "eslint ./src --ext .tsx --ext .ts --max-warnings 0",
         "format": "prettier --config .prettierrc --write src/**/*.{ts,tsx}"
     },
