@@ -15,7 +15,7 @@ export function ShowMathQuestions(): JSX.Element {
             question: "1 + 2 = ______",
             options: [],
             correctAnswer: "3",
-            profFeedback: "Tip: Count on your fingers"
+            profFeedback: "Tip: Count on your fingers."
         },
         {
             subject: "Math",
@@ -24,7 +24,8 @@ export function ShowMathQuestions(): JSX.Element {
             question: "How many bananas are left?",
             options: [],
             correctAnswer: "2",
-            profFeedback: "Tip: Draw out the bananas"
+            profFeedback:
+                "Tip: Draw out the bananas and cross out the ones that are gone."
         },
         {
             subject: "Math",
@@ -51,8 +52,8 @@ export function ShowMathQuestions(): JSX.Element {
     function showMathQuestions(question1: Question) {
         return (
             <div>
-                <h3>{question1.prompt}</h3>
-                <div>{question1.question}</div>
+                <h4>{question1.prompt}</h4>
+                <h5>{question1.question}</h5>
             </div>
         );
     }

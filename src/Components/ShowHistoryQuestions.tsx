@@ -21,7 +21,7 @@ export function ShowHistoryQuestions(): JSX.Element {
             ],
             correctAnswer: "George Washington",
             profFeedback:
-                "Hint: There is a bridge named after him in New York City"
+                "Hint: There is a bridge named after him in New York City."
         },
         {
             subject: "English",
@@ -68,7 +68,7 @@ export function ShowHistoryQuestions(): JSX.Element {
         return (
             <div>
                 <h3>{question1.prompt}</h3>
-                <div>{question1.question}</div>
+                <h5>{question1.question}</h5>
                 <div>{"-" + question1.options[1]}</div>
                 <div>{"-" + question1.options[2]}</div>
                 <div>{"-" + question1.options[3]}</div>

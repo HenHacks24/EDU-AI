@@ -24,7 +24,7 @@ export function ShowScienceQuestions(): JSX.Element {
             question: "What animal is black and white and creates milk?",
             options: [],
             correctAnswer: "cow",
-            profFeedback: "Tip: Think of what animals we can get milk from"
+            profFeedback: "Tip: Think of what animals we can get milk from."
         },
         {
             subject: "Science",
@@ -38,7 +38,7 @@ export function ShowScienceQuestions(): JSX.Element {
                 "Jupiter"
             ],
             correctAnswer: "Earth",
-            profFeedback: "Hint: mvEmjsun"
+            profFeedback: "Hint: mvEmjsun (acronym)"
         }
     ];
     const [selected1, setSelected1] = useState<string | undefined>(undefined);
@@ -54,7 +54,7 @@ export function ShowScienceQuestions(): JSX.Element {
         return (
             <div>
                 <h3>{question1.prompt}</h3>
-                <div>{question1.question}</div>
+                <h5>{question1.question}</h5>
                 <div>{"-" + question1.options[1]}</div>
                 <div>{"-" + question1.options[2]}</div>
                 <div>{"-" + question1.options[3]}</div>

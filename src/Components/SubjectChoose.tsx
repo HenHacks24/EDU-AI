@@ -55,9 +55,6 @@ export function SubjectChoose(): JSX.Element {
                 value="History"
                 checked={subject === "History"}
             />
-            <div>
-                You have chosen <span>{subject}</span>
-            </div>
             {subject == "English" && (
                 <ShowEnglishQuestions></ShowEnglishQuestions>
             )}
