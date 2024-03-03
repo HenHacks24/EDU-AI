@@ -20,7 +20,7 @@ export function ShowEnglishQuestions(): JSX.Element {
                 "Alyssa"
             ],
             correctAnswer: "Alyssa",
-            profFeedback: "Tip: Read the sentence out loud"
+            profFeedback: "Tip: Read the sentence out loud."
         },
         {
             subject: "English",
@@ -69,8 +69,8 @@ export function ShowEnglishQuestions(): JSX.Element {
     function showEnglishQuestions(question1: Question) {
         return (
             <div>
-                <h3>{question1.prompt}</h3>
-                <div>{question1.question}</div>
+                <p>{question1.prompt}</p>
+                <h5>{question1.question}</h5>
                 <div>{"-" + question1.options[1]}</div>
                 <div>{"-" + question1.options[2]}</div>
                 <div>{"-" + question1.options[3]}</div>
@@ -175,10 +175,18 @@ export function ShowEnglishQuestions(): JSX.Element {
             </Form.Group> */}
             {/* <div>{checkIfCorrect(selected, question)}</div> */}
             <br></br>
-            <div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h5>
                 {points}
-                {"/9"}
-            </div>
+                {"/9 points "}
+            </h5>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </div>
     );
 }

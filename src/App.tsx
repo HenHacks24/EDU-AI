@@ -9,9 +9,9 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                <h4>
+                <h5>
                     <NavbarFunction></NavbarFunction>
-                </h4>
+                </h5>
             </header>
             <SubjectChoose></SubjectChoose>
         </div>
