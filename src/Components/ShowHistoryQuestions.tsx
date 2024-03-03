@@ -35,7 +35,7 @@ export function ShowHistoryQuestions(): JSX.Element {
                 "Chicago"
             ],
             correctAnswer: "Washington DC",
-            profFeedback: "Hint: Is there anything that describes the cat?"
+            profFeedback: "Hint: It is named the first president."
         },
         {
             subject: "English",
@@ -49,7 +49,7 @@ export function ShowHistoryQuestions(): JSX.Element {
                 "World War 2"
             ],
             correctAnswer: "The War of 1812",
-            profFeedback: "Tip: Break up the sentences into pieces."
+            profFeedback: "Hint: It has the year in the name of the war."
         }
     ];
     const [selected1, setSelected1] = useState<string | undefined>(undefined);
