@@ -35,7 +35,7 @@ export function ShowHistoryQuestions(): JSX.Element {
                 "Chicago"
             ],
             correctAnswer: "Washington DC",
-            profFeedback: "Hint: It is named the first president."
+            profFeedback: "Hint: It is named after the first president."
         },
         {
             subject: "English",
