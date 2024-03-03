@@ -2,16 +2,18 @@ import React /*, { useState, useEffect } */ from "react";
 //"homepage": "homepage",
 //"deploy": "gh-pages -d build",
 import "./App.css";
-//import NavbarFunction from "./Navbar";
-//import { Navbar } from "./Navbar";
+import NavbarFunction from "./Navbar";
+import { SubjectChoose } from "./Components/SubjectChoose";
 
 function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                HenHacks24 Project. Hello World!!
+                <h4>
+                    <NavbarFunction></NavbarFunction>
+                </h4>
             </header>
-            <h5>Hi Users! Please fix</h5>
+            <SubjectChoose></SubjectChoose>
         </div>
     );
 }
