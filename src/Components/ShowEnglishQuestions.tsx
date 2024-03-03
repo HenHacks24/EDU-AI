@@ -175,10 +175,18 @@ export function ShowEnglishQuestions(): JSX.Element {
             </Form.Group> */}
             {/* <div>{checkIfCorrect(selected, question)}</div> */}
             <br></br>
-            <div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h5>
                 {points}
-                {"/9"}
-            </div>
+                {"/9 points "}
+            </h5>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </div>
     );
 }
